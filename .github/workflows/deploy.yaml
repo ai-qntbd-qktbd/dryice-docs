@@ -1,0 +1,70 @@
+name: Upload Website
+
+on:
+  push:
+    branches:
+    - main
+env:
+  REGISTRY: registry.deviceprime.metive.app/dryice
+  REPOSITORY: dryice-docs
+  MANIFEST_REPOSITORY: ai-qntbd-qktbd/dryice-docs-argocd
+jobs:
+  push-image:
+    name: Push image
+    runs-on: arc-runner-set
+    environment: production
+    outputs:
+      TAG: ${{ steps.build-image.outputs.tag }}
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+    
+    - name: Get commit hash
+      id: get-commit-hash
+      run: echo "::set-output name=commit-hash::$(git rev-parse --short HEAD)"
+    - name: Get timestamp
+      id: get-timestamp
+      run: echo "::set-output name=timestamp::$(date +'%Y-%m-%d-%H-%M')"
+    
+    - name: Build, tag, and push image to Registry
+      id: build-image
+      env:
+        IMAGE_TAG: ${{ steps.get-commit-hash.outputs.commit-hash }}-${{ steps.get-timestamp.outputs.timestamp }}
+      run: |
+        docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
+        docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+        echo "tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
+  push-manifest:
+    name: Push Manifest
+    needs: push-image
+    runs-on: arc-runner-set
+    environment: production
+    env:
+      TAG: ${{ needs.push-image.outputs.TAG }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.MANIFEST_REPOSITORY }}
+          ref: main
+          token: ${{ secrets.GIT_TOKEN }}
+
+      - name: Change manifest
+        run: sed -i "s|dryice/dryice-docs:[^ ]*|dryice/dryice-docs:${{ env.TAG }}|" deployment.yaml
+
+      - name: git push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "78456425+github-actions[bot]@users.noreply.github.com"
+          git config credential.helper store
+          git add deployment.yaml
+          git commit -m ":tada: Update: Image [${{ env.TAG }}]"
+          git push
