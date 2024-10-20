@@ -15,10 +15,10 @@ Metive is a ai-powered motion capture service that allows you to create 3D anima
 - Export animations to VMD format
 
 ## How to use
-
+<!-- 
 - [Getting Started](/docs/getting-started)
 - [Features](/docs/features)
-- [FAQ](/docs/faq)
+- [FAQ](/docs/faq) -->
 
 ## Support
 
