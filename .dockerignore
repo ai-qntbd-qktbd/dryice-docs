@@ -1,7 +1,3 @@
 node_modules
 .github
 Dockerfile
-docs
-static
-src
-blog
