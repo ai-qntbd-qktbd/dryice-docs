@@ -11,6 +11,7 @@ env:
 jobs:
   push-image:
     name: Push image
+    runs-on: ubuntu-latest
     environment: production
     outputs:
       TAG: ${{ steps.build-image.outputs.tag }}
