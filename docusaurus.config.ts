@@ -74,6 +74,11 @@ const config: Config = {
                 },
                 {to: "/blog", label: "Blog", position: "left"},
                 {
+                    href: "https://www.metive.app/editor",
+                    label: "Launch Editor",
+                    position: "right",
+                },        
+                {
                     type: "localeDropdown",
                     position: "right",
                 },
