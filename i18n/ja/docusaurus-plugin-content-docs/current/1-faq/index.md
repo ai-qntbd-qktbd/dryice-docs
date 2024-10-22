@@ -1,19 +1,20 @@
 # FAQ
 
-**1. Which files I load are uploaded to the server and collected?**
-    - No files are uploaded to the server, except for video files. For example, if you load a PMX model, this is not uploaded to the server. The model is loaded in your browser and processed locally.
+**1. アップロードされるファイルはどれですか？**
+    - ビデオファイルを除いて、サーバーにアップロードされるファイルはありません。例えば、PMXモデルを読み込んでも、これはサーバーにアップロードされません。モデルはブラウザ内で読み込まれ、ローカルで処理されます。
 
-**2. AI Motion Capture Gives Me an Error. What Should I Do?**
-    - If you encounter an error while using AI Motion Capture, please check the following:
-        - Make sure the video has only one person.
-        - Make sure the person is visible in the video.
-        - Make sure the person is not occluded by other objects.
+**2. AIモーションキャプチャでエラーが発生しました。どうすればいいですか？**
+    - AIモーションキャプチャを使用中にエラーが発生した場合、以下を確認してください：
+        - ビデオに一人だけが映っていることを確認してください。
+        - ビデオ内でその人が見えることを確認してください。
+        - その人が他の物体に遮られていないことを確認してください。
 
-**3. AI Motion Capture Is Too Slow.**
-    - We don't have a lot of GPU resources, so the processing speed may be slow when many users are using the service at the same time. Sorry for the inconvenience.
+**3. AIモーションキャプチャが遅すぎます。**
+    - GPUリソースがあまり多くないため、多くのユーザーが同時にサービスを使用している場合、処理速度が遅くなることがあります。ご不便をおかけして申し訳ありません。
 
-**4. Who has the authorship of the AI-generated motion data?**
-    - The user who executes the AI Motion Capture takes the authorship of the generated motion data. so you can redistribute and use as commercial purposes.
+**4. AI生成モーションデータの著作権は誰にありますか？**
+    - AIモーションキャプチャを実行したユーザーが生成されたモーションデータの著作権を持ちます。そのため、再配布や商業目的での使用が可能です。（これにつきましては英語の原文をご確認ください）
 
-**5. Is this service MMD-compatible software(MMD互換ソフト)?**
-    - Yes, Metive is MMD(MikuMikuDance)-compatible software.
+**5. このサービスはMMD互換ソフトですか？**
+    - はい、MetiveはMMD（MikuMikuDance）互換ソフトです。
+
