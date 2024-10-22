@@ -8,6 +8,8 @@ authors: MoonRainy21
 
 Quaternions are a mathematical concept with three imaginary units. They are used to represent rotations in 3D space. Quaternions are used in various fields using 3D rotations, such as computer graphics, robotics, and physics. In this article, we will discuss the basics of quaternions and how we can deal with them in 3D motion.
 
+<!--truncate-->
+
 ## How Rotation becomes Quaternion
 
 A rotation in 3D space is often represented by an Euler angle or a rotation matrix. However, both of these representations have some limitations. Euler angles have a problem called gimbal lock, and rotation matrices are computationally expensive. Quaternions are an alternative representation that solves these problems.
