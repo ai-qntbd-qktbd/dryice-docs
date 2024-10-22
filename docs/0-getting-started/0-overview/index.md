@@ -17,4 +17,4 @@ In this article, we will discuss how to export the motion of a person in a video
 4. Retarget the motion to the PMX model
 5. Export the motion as a VMD animation
 
-So let's get started
+So let's get started on **[Metive Editor](https://metive.app/editor)**
