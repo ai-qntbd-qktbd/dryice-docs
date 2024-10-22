@@ -6,19 +6,19 @@ title: main-page
 
 ![alt text](image.png)
 
-Metive is a ai-powered motion capture service that allows you to create 3D animations from 2D videos.
+Metiveは、2D動画から3Dアニメーションを作成できる、AIを活用したモーションキャプチャーサービスです。
 
-## Features
+## 機能
 
-- Load MMD(PMX) model
-- Generate 3D animations from 2D videos
-- Export animations to VMD format
+- MMD(PMX)モデルの読み込み
+- 2D動画から3Dアニメーションの生成
+- アニメーションのVMD形式へのエクスポート
 
-## How to use
+## 使用方法
 
-- [Getting Started](./docs/category/getting-started) - Quick start guide
-- [FAQ](./docs/faq) - Frequently asked questions
+- [はじめに](./docs/category/getting-started) - クイックスタートガイド
+- [FAQ](./docs/faq) - よくある質問
 
 ## Support
 
-Join our [Discord](https://discord.gg/cUTbtaufK2) server for support and feedback.
+[Discord](https://discord.gg/cUTbtaufK2) - サポートとフィードバックのためのDiscordサーバーに参加してください。
