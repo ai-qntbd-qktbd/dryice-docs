@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting Started": {
-    "message": "Getting Started",
+    "message": "시작하기",
     "description": "The label for category Getting Started in sidebar docsSidebar"
   },
   "sidebar.docsSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "Getting Started AI Motion Capture with minimal setup",
+    "message": "최소한의 설정으로 AI모션캡처를 사용하는 방법을 배웁니다.",
     "description": "The generated-index page description for category Getting Started in sidebar docsSidebar"
   }
 }
