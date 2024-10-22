@@ -14,5 +14,9 @@
   "item.label.Blog": {
     "message": "ブログ",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Launch Editor": {
+    "message": "エディターを起動",
+    "description": "Navbar item with label Launch Editor"
   }
 }

@@ -14,5 +14,9 @@
   "item.label.Blog": {
     "message": "블로그",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Launch Editor": {
+    "message": "에디터 실행",
+    "description": "Navbar item with label Launch Editor"
   }
 }
