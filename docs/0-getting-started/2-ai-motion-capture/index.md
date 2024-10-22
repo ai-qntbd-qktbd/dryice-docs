@@ -1,5 +1,7 @@
 # Run AI Motion Capture
 
+In this section, you will learn how to run AI motion capture.
+
 1. Select the video to process. then click the "Run AI Motion Capture" button.
 
     ![select video](image.png)

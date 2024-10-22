@@ -1,5 +1,7 @@
 # Upload Video
 
+In this section, you will learn how to upload a video file.
+
 1. Drag and drop the video file into the window.
 
     ![drag drop video](image.png)
