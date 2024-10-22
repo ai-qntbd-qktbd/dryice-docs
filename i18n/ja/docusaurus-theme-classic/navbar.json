@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Metive Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Metive Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "テュートリアル",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "ブログ",
+    "description": "Navbar item with label Blog"
+  }
+}
