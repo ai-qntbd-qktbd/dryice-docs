@@ -17,4 +17,4 @@
 4. 사람의 모션을 PMX 모델에 리타겟팅합니다.
 5. 모션을 VMD 애니메이션으로 내보냅니다.
 
-**[Metive Editor](https://metive.app/editor)** 에서 시작해봅시다.
+**[Metive Editor](https://www.metive.app/editor)** 에서 시작해봅시다.
