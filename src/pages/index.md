@@ -23,4 +23,3 @@ Metive is a ai-powered motion capture service that allows you to create 3D anima
 ## Support
 
 Join our [Discord](https://discord.gg/cUTbtaufK2) server for support and feedback.
-
