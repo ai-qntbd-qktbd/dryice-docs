@@ -8,6 +8,8 @@ authors: MoonRainy21
 
 Metive, as an AI tool, has a lot of background in motion capture. There are some main concepts that are important to understand how Metive works. This article will give you an overview of the main concepts of motion capture AI on Metive.
 
+<!--truncate-->
+
 ## What is Monocular Markerless Motion Capture?
 
 Markerless motion capture is a technology that allows you to capture the motion of a person without using any markers, such as reflective markers or sensors. Instead, markerless motion capture uses computer vision algorithms to track the movement of a person's body and create a 3D model of their motion. 

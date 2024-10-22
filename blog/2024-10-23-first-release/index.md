@@ -8,6 +8,8 @@ authors: [noname0310]
 
 Hello world! This is the first release of Metive. We are excited to announce that we have finally released the first version of Metive. We have been working on this project for a long time and we are happy to finally share it with the world.
 
+<!--truncate-->
+
 ## What is Metive?
 
 First of all, the word itself doesn't mean anything - it's just easy to pronounce.
