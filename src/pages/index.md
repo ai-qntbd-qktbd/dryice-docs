@@ -17,7 +17,6 @@ Metive is a ai-powered motion capture service that allows you to create 3D anima
 ## How to use
 
 - [Getting Started](./docs/category/getting-started) - Quick start guide
-- [Features](./docs/category/features) - Detailed features
 - [FAQ](./docs/faq) - Frequently asked questions
 
 ## Support
