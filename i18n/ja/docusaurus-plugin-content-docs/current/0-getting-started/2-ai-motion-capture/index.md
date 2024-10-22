@@ -14,11 +14,11 @@ In this section, you will learn how to run AI motion capture.
 
 3. Wait for the processing to complete.
 
-    ![alt text](image-2.png)
+    ![processing](image-2.png)
 
 4. When the processing is complete, you can see the result in the "AI Animation Results" panel.
 
-    ![alt text](image-3.png)
+    ![result](image-3.png)
 
 ### Follow the steps with the video
 

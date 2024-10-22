@@ -22,7 +22,7 @@ In this section, you will learn how to load an animation to the PMX model.
 
 4. Animation is loaded to the PMX model.
 
-    ![alt text](image-3.png)
+    ![animation loaded](image-3.png)
 
 5. Select Video on Upload Videos panel. then click the "Load Video on Floating View" button.
 

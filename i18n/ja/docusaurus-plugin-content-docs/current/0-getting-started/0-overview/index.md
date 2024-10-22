@@ -1,20 +1,20 @@
-# Our journey starts here
+# ここから私たちの旅が始まる
 
-**Metive allows you to export the motion of a person in a video as a VMD animation.**
+**Metive は、ビデオ内の人物の動きを VMD アニメーションとしてエクスポートすることができます。**
 
-To do this, we need the following data:
+これを行うには、次のデータが必要です。:
 
-- A video of the person
-- A PMX model for retarget and render the animation
+- 人物のビデオ
+- アニメーションのリターゲットとレンダリングのためのPMXモデル
 
-In this article, we will discuss how to export the motion of a person in a video as a VMD animation using Metive.
+このドキュメントでは、Metiveを使用してビデオ内の人物の動きをVMDアニメーションとしてエクスポートする方法について説明します。
 
-**The overall process is as follows:**
+**全体のプロセスは次のとおりです。**
 
-1. Upload the video with one person to Metive
-2. Run AI Motion Capture to extract the motion of the person
-3. Load the PMX model to Metive
-4. Retarget the motion to the PMX model
-5. Export the motion as a VMD animation
+1. 1人の人物がいるビデオをMetiveにアップロードする
+2. AI Motion Captureを実行して人物の動きを抽出する
+3. PMXモデルをMetiveにロードする
+4. モーションをPMXモデルにリターゲットする
+5. モーションをVMDアニメーションとしてエクスポートする
 
-So let's get started on **[Metive Editor](https://www.metive.app/editor)**
+それでは、**[Metive Editor](https://www.metive.app/editor)** から始めましょう。

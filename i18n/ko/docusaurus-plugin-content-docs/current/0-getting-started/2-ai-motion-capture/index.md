@@ -14,11 +14,11 @@
 
 3. 처리가 완료될 때까지 기다립니다.
 
-    ![ai motion capture panel](image-2.png)
+    ![processing](image-2.png)
 
 4. 처리가 완료되면 "AI Animation Results" 패널에서 결과를 확인할 수 있습니다.
 
-    ![alt text](image-3.png)
+    ![result](image-3.png)
 
 ### 동영상으로 단계 따라하기
 

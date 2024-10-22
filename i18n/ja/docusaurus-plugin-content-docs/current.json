@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting Started": {
-    "message": "Getting Started",
+    "message": "はじめに",
     "description": "The label for category Getting Started in sidebar docsSidebar"
   },
   "sidebar.docsSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "Getting Started AI Motion Capture with minimal setup",
+    "message": "最小限のセットアップで AI モーションキャプチャをはじめる",
     "description": "The generated-index page description for category Getting Started in sidebar docsSidebar"
   }
 }
