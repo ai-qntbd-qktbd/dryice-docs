@@ -17,4 +17,3 @@
 
 **5. このサービスはMMD互換ソフトですか？**
     - はい、MetiveはMMD（MikuMikuDance）互換ソフトです。
-
