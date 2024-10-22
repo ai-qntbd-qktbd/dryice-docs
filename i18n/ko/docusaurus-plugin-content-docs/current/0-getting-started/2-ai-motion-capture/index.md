@@ -1,26 +1,26 @@
-# Run AI Motion Capture
+# AI 모션 캡처 실행하기
 
-In this section, you will learn how to run AI motion capture.
+이 섹션에서는 AI 모션 캡처를 실행하는 방법을 배웁니다.
 
-1. Select the video to process. then click the "Run AI Motion Capture" button.
+1. 처리할 비디오를 선택한 다음 "Run AI Motion Capture" 버튼을 클릭합니다.
 
-    ![select video](image.png)
+    ![비디오 선택](image.png)
 
-2. Set Animation Name and range to process. then click the "Run AI Motion Capture" button.
+2. 처리할 애니메이션 이름과 범위를 설정한 다음 "Run AI Motion Capture" 버튼을 클릭합니다.
 
     ![ai motion capture panel](image-1.png)
 
-    You can adjust the "AI Options" to improve the result.
+    "AI Options"를 조정하여 결과를 개선할 수 있습니다.
 
-3. Wait for the processing to complete.
+3. 처리가 완료될 때까지 기다립니다.
 
-    ![alt text](image-2.png)
+    ![ai motion capture panel](image-2.png)
 
-4. When the processing is complete, you can see the result in the "AI Animation Results" panel.
+4. 처리가 완료되면 "AI Animation Results" 패널에서 결과를 확인할 수 있습니다.
 
     ![alt text](image-3.png)
 
-### Follow the steps with the video
+### 동영상으로 단계 따라하기
 
 import ReactPlayer from "react-player";
 import ResultVideo from "./2024-10-22 20-20-44.mp4";

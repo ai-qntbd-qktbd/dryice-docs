@@ -1,8 +1,8 @@
 {
-    "label": "Getting Started",
+    "label": "시작하기",
     "position": 0,
     "link": {
         "type": "generated-index",
-        "description": "Getting Started AI Motion Capture with minimal setup"
+        "description": "최소한의 설정으로 AI모션캡처를 사용하는 방법을 배웁니다."
     }
 }
