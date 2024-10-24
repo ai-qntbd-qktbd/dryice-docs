@@ -1,38 +1,38 @@
-# Load Animation To Model
+# 모델에 애니메이션 가져오기
 
-In this section, you will learn how to load an animation to the PMX model.
+이 섹션에서는 PMX 모델에 애니메이션을 가져오는 방법을 배웁니다.
 
-*We show examples of loading the PMX model with "Apearance Miku" created by [ままま](https://seiga.nicovideo.jp/seiga/im2703273).*
+*PMX 모델을 로드하는 예시로 [ままま](https://seiga.nicovideo.jp/seiga/im2703273) 님이 만든 "Apearance Miku"를 사용합니다.*
 
-1. Drag and drop the **folder that contains the PMX model** into the window.
+1. **PMX 모델이 있는 폴더**를 창에 드래그 앤 드롭합니다.
 
     ![drag and drop](image.png)
 
     :::warning
-    If you drag and drop the PMX model **file**, the model will be loaded without the texture.
+    PMX 모델 **파일**을 드래그 앤 드롭하면 텍스처 없이 모델이 로드됩니다.
     :::
 
-2. Select the PMX model in file list. then click the "Import" button.
+2. 파일 목록에서 PMX 모델을 선택하여 "Import" 버튼을 클릭합니다.
    
     ![import dialog](image-1.png)
 
-3. Select the Animation to load at the "AI Animation Results" panel. then click the "Apply Animation" button.
+3. "AI Animation Results" 패널에서 로드할 애니메이션을 선택하여 "Apply Animation" 버튼을 클릭합니다.
     
     ![apply animation](image-2.png)
 
-4. Animation is loaded to the PMX model.
+4. 애니메이션이 PMX 모델에 로드됩니다.
 
     ![animation loaded](image-3.png)
 
-5. Select Video on Upload Videos panel. then click the "Load Video on Floating View" button.
+5. "Uploaded Videos" 패널에서 영상을 선택한 다음 "Load Video on Floating View" 버튼을 클릭합니다.
 
     ![load on floating view](image-4.png)
 
-6. The video is loaded on the floating view. You can now see Input Video and Animation together.
+6. "floating view"에 비디오가 로드됩니다. 이제 입력한 영상과 애니메이션을 함께 볼 수 있습니다.
 
     ![floating view loaded](image-5.png)
 
-### Follow the steps with the video
+### 동영상으로 따라해보기
 
 import ReactPlayer from "react-player";
 import ResultVideo from "./2024-10-22 20-37-20.mp4";

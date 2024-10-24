@@ -20,7 +20,7 @@
 
     ![result](image-3.png)
 
-### 동영상으로 단계 따라하기
+### 동영상으로 따라해보기
 
 import ReactPlayer from "react-player";
 import ResultVideo from "./2024-10-22 20-20-44.mp4";

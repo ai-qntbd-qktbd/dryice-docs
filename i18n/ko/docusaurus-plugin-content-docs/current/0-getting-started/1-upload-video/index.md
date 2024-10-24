@@ -16,7 +16,7 @@
 3. 비디오 이름과 업로드할 범위를 설정합니다. "업로드"를 클릭하여 비디오를 업로드합니다.
     ![upload dialog](image-2.png)
 
-### 동영상으로 단계 따라하기
+### 동영상으로 따라해보기
 
 import ReactPlayer from "react-player";
 import ResultVideo from "./2024-10-22 19-50-20.mp4";
