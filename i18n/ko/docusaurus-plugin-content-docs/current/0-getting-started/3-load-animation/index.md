@@ -4,6 +4,12 @@
 
 *PMX 모델을 로드하는 예시로 [ままま](https://seiga.nicovideo.jp/seiga/im2703273) 님이 만든 "Apearance Miku"를 사용합니다.*
 
+:::info
+애니메이션이 올바르게 적용되려면 MMD 모델에 MMD 표준 본(標準ボーン)과 MMD 준표준 본(準標準ボーン)이 있어야 합니다.
+
+Appearance Miku 모델에는 MMD 준표준 뼈대(準標準ボーン)가 **없습니다**. 따라서 최상의 결과를 위해 [Tda Miku](https://www.deviantart.com/mmd91/art/TDA-Hatsune-Miku-V4X-Style-Model-DL-Download-MMD-788834848)와 같은 다른 모델을 사용해 주세요.
+:::
+
 1. **PMX 모델이 있는 폴더**를 창에 드래그 앤 드롭합니다.
 
     ![drag and drop](image.png)

@@ -4,6 +4,12 @@
 
 *[ままま](https://seiga.nicovideo.jp/seiga/im2703273)さんが作成した「Apearance Miku」のPMXモデルを読み込む例を示します。*
 
+:::info
+MMDモデルには、アニメーションが正しく適用されるために、MMD標準ボーンおよびMMD準標準ボーンが必要です。
+
+Appearance MikuモデルにはMMD準標準ボーン（準標準ボーン）が**含まれていません**。そのため、最良の結果を得るために、[Tda Miku](https://www.deviantart.com/mmd91/art/TDA-Hatsune-Miku-V4X-Style-Model-DL-Download-MMD-788834848)などの他のモデルを使用してください。
+:::
+
 1. **PMXモデルを含むフォルダ**をウィンドウにドラッグアンドドロップします。
 
     ![drag and drop](image.png)

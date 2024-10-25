@@ -4,6 +4,12 @@ In this section, you will learn how to load an animation to the PMX model.
 
 *We show examples of loading the PMX model with "Apearance Miku" created by [ままま](https://seiga.nicovideo.jp/seiga/im2703273).*
 
+:::info
+MMD model must have mmd standard bone(標準ボーン) and mmd semi-standard bone(準標準ボーン) for the animation to be applied correctly.
+
+Appearance Miku model doen **NOT** have mmd semi-standard bone(準標準ボーン). So, please use other models like [Tda Miku](https://www.deviantart.com/mmd91/art/TDA-Hatsune-Miku-V4X-Style-Model-DL-Download-MMD-788834848) for the best result.
+:::
+
 1. Drag and drop the **folder that contains the PMX model** into the window.
 
     ![drag and drop](image.png)
