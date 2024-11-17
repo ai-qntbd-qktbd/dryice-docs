@@ -6,7 +6,7 @@ title: main-page
 
 ![alt text](image.png)
 
-2D 비디오에서 3D 애니메이션을 생성할 수 있는 ai 기반 모션 캡처 서비스 Metive입니다.
+2D 비디오에서 3D 애니메이션을 생성할 수 있는 ai 기반 모션 캡처 서비스 Metive(미티브)입니다.
 
 ## 기능
 

@@ -6,7 +6,7 @@ title: main-page
 
 ![alt text](image.png)
 
-Metive is a ai-powered motion capture service that allows you to create 3D animations from 2D videos.
+Metive(pronounced "me-tive") is a ai-powered motion capture service that allows you to create 3D animations from 2D videos.
 
 ## Features
 
